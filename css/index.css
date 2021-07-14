@@ -1,0 +1,49 @@
+@import "./wrapper.css";
+@import "./header.css";
+@import "./button.css";
+@import "./button-icon.css";
+@import "./hola.css";
+
+
+/* VARIABLES */
+:root{
+  --fontBase : 'Poppins', sans-serif;
+  --headLine1: bold 95px/154px var(--fontBase); /*font-size,line-height,fontFamily*/
+  --headLine2: bold 59px/95px var(--fontBase); 
+  --headLine3: bold 48px/78px var(--fontBase);
+  --headLine4: bold 34px/55px var(--fontBase);
+  --headLine5: bold 24px/39px var(--fontBase); 
+
+  --body1: 16px/25px var(--fontBase); /*font-size=normal(por defecto,no se pone),line-height,fontFamily*/
+  --body2: 14px/22px var(--fontBase); 
+
+  --button: bold 14px/22px var(--fontBase); 
+
+  --gradient : linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+
+  --purple: #310A90;
+  --green: #42E2B8;
+  --white: white;
+}
+
+/* ESTILOS GENERALES */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  /* Typography */
+  font: var(--body1);
+  color: var(--purple);
+
+  /* VISUAL */
+  background: var(--gradient);
+  min-block-size: 100vh;
+
+  margin: 0;
+
+  font-size: 16px;
+} 
+
