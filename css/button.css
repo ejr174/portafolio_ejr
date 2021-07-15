@@ -1,20 +1,23 @@
 .button {
   padding: 13px 24px;
-  color: var(--white);
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  background: #0353a4;
+  
   border: none;
   border-radius: 4px;
   font-size: 17px;
   font-weight: bold;
 
+  background: linear-gradient(to right bottom, #0466c8, #035eb9, #0257ab, #024f9d, #02488f, #034182, #023975, #023269, #022a5b, #01224d, #001a40, #001233);
+  border: 1px solid white;
   transition: all .7s;
 }
 
 .button:hover{
-  background-color: #0012336c;
-  border: 1px solid var(--white);
-
+  background: rgba(255, 255, 255, 0.9);
+  border: 3px solid #023e7d;
+  color: #023e7d;
 }
+

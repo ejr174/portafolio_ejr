@@ -33,6 +33,7 @@
 }
 
 .menu-header ul li a{
+  font-weight: 700;
   text-decoration: none;
   color: var(--white);
 
@@ -43,7 +44,7 @@
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--white);
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 8px;
 }
 
 

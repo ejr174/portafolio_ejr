@@ -31,6 +31,8 @@
 
 .project-description h2{
   background-color: rgba(255, 255, 255, .3);
+  background-image: linear-gradient(to bottom, #f8f9fa, #f5f7f8, #f2f4f6, #f0f2f4, #edeff2, #ebedf0, #e8ebef, #e6e9ed, #e4e7eb, #e2e5ea, #e0e4e8, #dee2e6);
+  color: #023e7d;
   border: 3px solid white;
   border-radius: 4px;
   padding: 5px 8px;

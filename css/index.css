@@ -12,8 +12,7 @@
 
 :root{
   --fontBase : 'Montserrat', sans-serif;
-  --gradient : linear-gradient(to left top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-  --white: white;
+  --gradient : linear-gradient(to right bottom, #0466c8, #035eb9, #0257ab, #024f9d, #02488f, #034182, #023975, #023269, #022a5b, #01224d, #001a40, #001233);
 }
 
 /* ESTILOS GENERALES */
@@ -25,7 +24,7 @@
 body{
   /* Typography */
   font: var(--body1);
-  color: var(--purple);
+  color: white;
 
   /* VISUAL */
   background: var(--gradient);
