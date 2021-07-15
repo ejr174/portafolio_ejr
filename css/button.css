@@ -8,6 +8,7 @@
   border: none;
   border-radius: 4px;
   font-size: 17px;
+  font-weight: bold;
 
   transition: all .7s;
 }
