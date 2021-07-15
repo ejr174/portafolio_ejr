@@ -15,3 +15,8 @@ $form.addEventListener('submit', (event) => {
 
 
 
+const descargar_cv = document.getElementById('buton-cv');
+
+descargar_cv.addEventListener('click', () =>{
+  
+})
